@@ -3,10 +3,6 @@
 #include <vector>
 using namespace std;
 
-void permutation() {
-    // Muneer Ahmad
-}
-
 void maze(vector<vector<int>> &matrix, int row, int colm, string path, vector<string> &ans) {
     int n = matrix.size();
     if (row < 0 || colm < 0 || row >= n || colm >= n || matrix[row][colm] == 0 || matrix[row][colm] == -1) {
