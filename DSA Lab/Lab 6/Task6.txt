@@ -1,0 +1,5 @@
+The most suitable queue for this messaging application is a FIFO (First-In-First-Out) queue.
+This is because messages need to be processed in the same order they arrive.
+The first message that comes in should be handled first, then the next, and so on.
+A FIFO queue ensures that no message is skipped and each message is processed one at a time, 
+even if different messages take different amounts of time.
